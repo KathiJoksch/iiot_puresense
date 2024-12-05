@@ -3,3 +3,12 @@ PureSense brings you a portable solution to monitor indoor air quality. With a c
 
 ## About us
 We are a group of 5 people, who develop an air quality monitoring tool during our IIoT course at Taiwan Tech (National Taiwan University of Science).
+
+## Hardware
+
+### Components
+
+### Architecture
+
+## Software
+
