@@ -12,19 +12,19 @@ Our air quality monitoring solution is built using the following hardware compon
 A powerful and energy-efficient microcontroller featuring a dual-core processor, built-in Wi-Fi, and Bluetooth. It ensures smooth data processing and connectivity for our device.
 
 - Gravity Analog Infrared CO2 Sensor
-Function: Accurately measures carbon dioxide (CO₂) levels in the air.
-Technology: Uses infrared light to detect CO₂ absorption, one of the most reliable methods for gas measurement.
-Applications: Ideal for monitoring indoor air quality to ensure a safe environment.
-Measurement Range: 0 to 5000 ppm.
+The Gravity Analog Infrared CO2 Sensor accurately measures carbon dioxide (CO₂) levels in the air. It operates using infrared light to detect CO₂ absorption, one of the most reliable methods for gas measurement. This makes it an excellent choice for monitoring indoor air quality and ensuring a safe environment.
+
+Measurement Range:
+  - 0 to 5000 ppm.
 
 - BME280 Environment Sensor
-Function: Measures temperature, humidity, and air pressure with high precision.
-Technology: Combines advanced MEMS (Micro-Electro-Mechanical Systems) technology for multi-environment sensing.
-Applications: Useful for detecting changes in indoor climate conditions and ensuring optimal comfort levels.
+
+The BME280 environment sensor is designed to measure temperature, humidity, and air pressure with high precision. It utilizes advanced MEMS (Micro-Electro-Mechanical Systems) technology, enabling reliable multi-environment sensing. This makes it ideal for detecting changes in indoor climate conditions and maintaining optimal comfort levels.
+
 Measurement Ranges:
--- Temperature: -40 to +85°C
--- Humidity: 0 to 100% RH
--- Pressure: 300 to 1100 hPa.
+  - Temperature: -40 to +85°C
+  - Humidity: 0 to 100% RH
+  - Pressure: 300 to 1100 hPa.
 
 - I2C OLED Display
 A compact display module that provides a clear and efficient interface for real-time data visualization. Product Link
