@@ -1,6 +1,8 @@
 # Air Quality Monitoring System
 *By Salma*
 
+<img src="./images/software_img1.png" alt="Software 1" title="Software 1" width="350">
+
 This repository contains the software component for an Air Quality Monitoring System. The software is designed to interface with an ESP32 microcontroller and other sensors to monitor air quality, providing real-time data visualization locally on an OLED screen and remotely via the Blynk platform.  
 
 ---
@@ -118,13 +120,20 @@ Replace the placeholders in the code with your actual credentials:
 ## Visualization  
 
 ### OLED Monitor  
-- Displays real-time data directly on the device.  
+- Displays real-time data directly on the device.
+
+<img src="./images/software_img2.png" alt="Software 2" title="Software 2" width="250">
 
 ### Web Interface  
-- Provides detailed charts and logs through the Blynk platform.  
+- Provides detailed charts and logs through the Blynk platform.
+
+<img src="./images/software_img3.png" alt="Software 3" title="Software 3" width="350">
 
 ### Mobile Interface  
-- Offers a user-friendly way to monitor data on the go via the Blynk app.  
+- Offers a user-friendly way to monitor data on the go via the Blynk app.
+
+<img src="./images/software_img4.png" alt="Software 4" title="Software 4" width="250">
+<img src="./images/software_img5.png" alt="Software 5" title="Software 5" width="350">
 
 ---
 
