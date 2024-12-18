@@ -60,3 +60,82 @@ Replace the placeholders in the code with your actual credentials:
 #define WIFI_PASSWORD "Your WiFi Password"
 #define BLYNK_AUTH_TOKEN "Your Blynk Auth Token"
 #define BLYNK_TEMPLATE_ID "Your BLYNK_TEMPLATE_ID"
+```  
+
+### Step 3: Upload the Code  
+- Connect your ESP32 microcontroller to your computer.  
+- Open the provided `.ino` file in Arduino IDE.  
+- Select the correct board:  
+   `Tools -> Board -> ESP32 Dev Module`  
+- Select the correct port:  
+   `Tools -> Port`.  
+- Upload the code to your ESP32.  
+
+### Step 4: Visualize Data  
+
+#### On Web  
+1. Log in to the [Blynk Website](https://www.blynk.io/).  
+2. Create a project.  
+3. Add widgets (e.g., gauges, graphs) to display sensor data.  
+
+#### On Mobile  
+1. Download the Blynk app.  
+2. Log in and create your project.  
+3. Add widgets for monitoring data.  
+
+#### Locally  
+- The OLED display will automatically show real-time air quality data.  
+
+---
+
+## Code Overview  
+
+### Key Functionalities  
+
+1. **Sensors Initialization:**  
+   - **BME680:** Measures temperature, humidity, and gas levels.  
+
+2. **WiFi and Blynk Setup:**  
+   - Establishes a connection to the internet.  
+   - Integrates with the Blynk platform.  
+
+3. **Data Visualization:**  
+   - Sends sensor data to Blynk for remote visualization.  
+   - Displays data locally on the OLED screen.  
+
+---
+
+## Required Updates  
+
+1. **WiFi Credentials:**  
+   Update `WIFI_SSID` and `WIFI_PASSWORD` with your WiFi network's credentials.  
+
+2. **Blynk Authentication:**  
+   Replace `BLYNK_AUTH_TOKEN` with your project's authentication token from the Blynk dashboard.  
+
+---
+
+## Visualization  
+
+### OLED Monitor  
+- Displays real-time data directly on the device.  
+
+### Web Interface  
+- Provides detailed charts and logs through the Blynk platform.  
+
+### Mobile Interface  
+- Offers a user-friendly way to monitor data on the go via the Blynk app.  
+
+---
+
+## Future Enhancements  
+
+- Add more advanced sensor calibration.  
+- Support additional visualization platforms.  
+
+---
+
+## References  
+
+- [Blynk Documentation](https://docs.blynk.io/)  
+- [Arduino Libraries Documentation](https://www.arduino.cc/en/Reference/Libraries)
