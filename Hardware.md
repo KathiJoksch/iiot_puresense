@@ -12,6 +12,8 @@ This report delves into the design and implementation of the project, including 
 
 ## Components and Their Specifications  
 
+<img src="./images/hardware_img2.jpg" alt="Connections" title="Connections" width="350">
+
 ### 1. MH-Z14A CO2 Sensor  
 The MH-Z14A is a high-performance NDIR (Non-Dispersive Infrared) CO2 sensor that measures CO2 concentrations ranging from 0 to 5000 ppm.  
 
@@ -77,6 +79,8 @@ The TXS0108E ensures safe voltage translation, preventing damage to the ESP-32E 
 ---
 
 ## Connections and System Design  
+
+<img src="./images/puresenseiiot_architecture.jpg" alt="Connections" title="Connections" width="350">
 
 ### Wiring Diagram  
 Below is a simplified explanation of how the components are connected:  
