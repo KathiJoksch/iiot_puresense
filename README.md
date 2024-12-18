@@ -17,7 +17,7 @@ It provides:
 - A contact section for technical support and inquiries.  
 - A team introduction, showcasing the contributors and their roles in the development process.  
 
-Visit [PureSense Website](https://iiotpuresense.wixsite.com/puresense) for detailed insights.
+Visit [PureSense Website](https://iiotpuresense.wixsite.com/home) for detailed insights.
 
 ---
 
