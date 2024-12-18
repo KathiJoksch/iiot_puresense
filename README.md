@@ -1,36 +1,42 @@
-# Pure Sense (IIoT)
-PureSense brings you a portable solution to monitor indoor air quality. With a compact design, our device offers real-time data, allowing you to understand and manage the air you breathe. PureSense is created to be user-friendly, accessible, and effective in maintaining safe and healthy indoor environments.
+# Pure Sense (IIoT) 
 
-## About us
-We are a group of 5 people, who develop an air quality monitoring tool during our IIoT course at Taiwan Tech (National Taiwan University of Science).
+## Project Description
+PureSense is a compact, portable air quality monitoring system designed to measure and display real-time environmental data, including CO₂ levels, temperature, humidity, air pressure, and VOCs. Developed as part of an IIoT course at Taiwan Tech, the project integrates advanced sensors with an ESP32 microcontroller and a sleek OLED display for local and remote monitoring. The system emphasizes accuracy, energy efficiency, and user-friendliness, offering reliable insights into indoor air quality through both standalone operation and connectivity with platforms like Blynk for extended functionality.
 
-## Hardware
+---
 
-### Components
-Our air quality monitoring solution is built using the following hardware components:
-- __MH-Z14A CO2 Sensor__
-The MH-Z14A CO2 sensor provides accurate carbon dioxide (CO₂) measurement with a range of 0-5000 ppm. It supports both UART and PWM output, making it highly versatile and reliable for monitoring indoor air quality.
+## About Us  
+We are a group of five individuals developing an air quality monitoring tool as part of our IIoT course at Taiwan Tech (National Taiwan University of Science).  
 
-- __Firebeetle ESP32-E Microcontroller (ESP-WROOM-32E)__
-This powerful and energy-efficient microcontroller features a dual-core processor, built-in Wi-Fi, and Bluetooth. It ensures seamless data processing and connectivity for our device.
+### Team Responsibilities
+| **Name**               | **Student ID** | **Job Description**                                |
+|-------------------------|----------------|---------------------------------------------------|
+| Zephaniah Irwan        | M11251801     | Project Coordinator |
+| Ahmed Gaber Younes Mohamed | M11207824     | Hardware Specialist |
+| Salma              | M11202814     | Software Specialist |
+| Lina Wang              | D11251001     | Marketing Strategist |
+| Katharina Joksch           | E11309005     | Website Designer & GitHub  |
 
-- __BME680 Environmental Sensor__
-The BME680 by Bosch Sensortec is a multifunctional sensor capable of measuring temperature, humidity, air pressure, and volatile organic compounds (VOCs). Utilizing advanced MEMS (Micro-Electro-Mechanical Systems) technology, it enables precise environmental sensing to optimize indoor comfort and safety.
+---
 
-- __OLED 128 x 64 Display__
-A compact and efficient display module that provides a clear interface for real-time data visualization, ensuring users can easily access air quality information.
+## Hardware  
 
-- __Set of Various Screws & M3 Brass Inserts__
-Essential hardware for securely assembling the device.
+### Components  
+The PureSense system is built using the following components:  
+- **MH-Z14A CO₂ Sensor:** Measures CO₂ concentrations (0–5000 ppm) with high precision.  
+- **BME680 Sensor:** Detects temperature, humidity, air pressure, and VOC levels.  
+- **ESP32 Microcontroller:** Handles data processing and wireless connectivity.  
+- **OLED Display:** Provides real-time visualization of environmental data.  
+- **TXS0108E Level Converter:** Ensures safe communication between sensors and the microcontroller.  
 
-### Architecture
-The architecture of PureSense is designed to provide seamless integration of hardware components, ensuring reliability and portability. At its core lies the FireBeetle ESP32-E IoT Microcontroller, which serves as the central processing unit, managing data collection, processing, and communication. Environmental data is continuously gathered by the BME680 Environmental Sensor, measuring temperature, humidity, air pressure, and VOC levels, alongside the MH-Z14A CO2 Sensor, which monitors carbon dioxide levels. This information is processed by the ESP32 and displayed in real-time on the OLED 128 x 64 Display, allowing users to instantly assess air quality.
+### Architecture  
+The system integrates all components to provide seamless monitoring. The ESP32 processes sensor data and displays it on an OLED screen. Data can also be transmitted wirelessly via Wi-Fi for remote monitoring through platforms like Blynk. The robust hardware design ensures portability and reliability, with a focus on low power consumption.  
 
-Wireless connectivity is a key feature of the architecture, enabled by the ESP32's built-in Wi-Fi module. This allows the device to transmit data to external platforms for remote monitoring, creating opportunities for cloud-based analytics and broader integrations. The hardware assembly is compact and robust, constructed with a transparent 2mm acrylic casing that ensures both visibility and protection of the internal components. Secured with M3 brass inserts and screws, the design is both durable and easy to maintain, making PureSense ideal for portable use.
+---
 
-## Software
-The software of PureSense is developed to maximize functionality while maintaining user-friendliness and efficiency. The ESP32 microcontroller is programmed using the Arduino IDE, which provides a flexible platform for integrating the various sensors and components. Custom code retrieves data from the BME680 and MH-Z14A CO2 sensors, processing it to display temperature, humidity, air pressure, VOC levels, and CO2 levels accurately.
-
-Real-time data is dynamically presented on the OLED display, giving users immediate insights into the air quality of their environment. Additionally, the software is designed to support optional cloud integration, enabling remote data storage and monitoring for more comprehensive air quality management. Power efficiency is a critical feature of the system, with the ESP32 optimized for low-power operation to extend battery life and ensure sustained performance.
-
-This combination of advanced hardware and thoughtfully developed software ensures that PureSense is not only effective in monitoring indoor air quality but also scalable and adaptable for a variety of applications.
+## Software  
+The PureSense software is developed using the Arduino IDE and integrates libraries for the ESP32, BME680, and OLED display. Key functionalities include:  
+- **Real-time Data Visualization:** Display environmental data on the OLED screen.  
+- **Remote Monitoring:** Use the Blynk platform for web and mobile data access.  
+- **Configurable Settings:** Easy updates for Wi-Fi and Blynk credentials.  
+The software ensures efficient operation with low power consumption and scalability for future features like cloud integration.
