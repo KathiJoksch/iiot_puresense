@@ -22,7 +22,7 @@ We are a group of five individuals developing an air quality monitoring tool as 
 ## Hardware
 [Go to Hardware Documentation](Hardware.md)
 
-<img src="./images/puresenseiiot_architecture.jpg" alt="Connections" title="Connections" width="300">
+<img src="./images/hardware_img2.jpg" alt="Connections" title="Connections" width="350">
 
 ### Components  
 The PureSense system is built using the following components:  
@@ -40,7 +40,7 @@ The system integrates all components to provide seamless monitoring. The ESP32 p
 ## Software
 [Go to Software Documentation](Software.md)
 
-<img src="./images/software_img1.png" alt="Monitor" title="Monitor" width="300">
+<img src="./images/software_img1.png" alt="Monitor" title="Monitor" width="350">
 
 The PureSense software is developed using the Arduino IDE and integrates libraries for the ESP32, BME680, and OLED display. Key functionalities include:  
 - **Real-time Data Visualization:** Display environmental data on the OLED screen.  
