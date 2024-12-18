@@ -32,6 +32,7 @@ The PureSense system is built using the following components:
 
 ### Architecture  
 The system integrates all components to provide seamless monitoring. The ESP32 processes sensor data and displays it on an OLED screen. Data can also be transmitted wirelessly via Wi-Fi for remote monitoring through platforms like Blynk. The robust hardware design ensures portability and reliability, with a focus on low power consumption.  
+![Connections](./images/puresenseiiot_architecture.jpg "Connections")
 
 ---
 
