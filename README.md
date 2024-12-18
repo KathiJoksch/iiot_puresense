@@ -3,6 +3,12 @@
 ## Project Description
 PureSense is a compact, portable air quality monitoring system designed to measure and display real-time environmental data, including CO₂ levels, temperature, humidity, air pressure, and VOCs. Developed as part of an IIoT course at Taiwan Tech, the project integrates advanced sensors with an ESP32 microcontroller and a sleek OLED display for local and remote monitoring. The system emphasizes accuracy, energy efficiency, and user-friendliness, offering reliable insights into indoor air quality through both standalone operation and connectivity with platforms like Blynk for extended functionality.
 
+## Problem Statement
+
+[Go to Problem Statement Documentation](ProblemStatement.md)
+
+Overcrowding in public transportation during peak hours creates stressful and uncomfortable environments while significantly degrading air quality due to poor ventilation and high passenger density. Elevated levels of CO₂, VOCs, and humidity in these confined spaces lead to health risks, particularly for vulnerable groups such as children, the elderly, and individuals with respiratory conditions. This not only impacts commuter well-being but also discourages public transportation use, exacerbating urban congestion and pollution. Real-time air quality monitoring is essential to address these challenges by enabling timely interventions, improving ventilation, and fostering a healthier commuting experience.
+
 ## Website
 The PureSense website serves as a comprehensive platform to promote our air quality monitoring system. 
 It provides:
