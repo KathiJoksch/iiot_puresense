@@ -22,6 +22,8 @@ We are a group of five individuals developing an air quality monitoring tool as 
 ## Hardware
 [Go to Hardware Documentation](Hardware.md)
 
+<img src="./images/puresenseiiot_architecture.jpg" alt="Connections" title="Connections" width="300">
+
 ### Components  
 The PureSense system is built using the following components:  
 - **MH-Z14A CO₂ Sensor:** Measures CO₂ concentrations (0–5000 ppm) with high precision.  
@@ -33,12 +35,12 @@ The PureSense system is built using the following components:
 ### Architecture  
 The system integrates all components to provide seamless monitoring. The ESP32 processes sensor data and displays it on an OLED screen. Data can also be transmitted wirelessly via Wi-Fi for remote monitoring through platforms like Blynk. The robust hardware design ensures portability and reliability, with a focus on low power consumption.
 
-<img src="./images/puresenseiiot_architecture.jpg" alt="Connections" title="Connections" width="300">
-
 ---
 
 ## Software
 [Go to Software Documentation](Software.md)
+
+<img src="./images/software_img1.png" alt="Monitor" title="Monitor" width="300">
 
 The PureSense software is developed using the Arduino IDE and integrates libraries for the ESP32, BME680, and OLED display. Key functionalities include:  
 - **Real-time Data Visualization:** Display environmental data on the OLED screen.  
@@ -56,6 +58,3 @@ The marketing strategy for PureSense focuses on showcasing its unique value prop
 - **Partnerships:** Collaborations with industries, online influencers, and participation in trade shows.  
 - **Online Presence:** Promoting through social media and sharing customer success stories.  
 This approach aims to enhance brand visibility, build credibility, and drive adoption in target markets such as schools, hospitals, and smart homes.
-
- <img src="./images/software_img1.png" alt="Monitor" title="Monitor" width="300">
-
