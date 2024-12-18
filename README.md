@@ -19,7 +19,8 @@ We are a group of five individuals developing an air quality monitoring tool as 
 
 ---
 
-## Hardware  
+## Hardware
+[Go to Hardware Documentation](Hardware.md)
 
 ### Components  
 The PureSense system is built using the following components:  
@@ -34,9 +35,23 @@ The system integrates all components to provide seamless monitoring. The ESP32 p
 
 ---
 
-## Software  
+## Software
+[Go to Software Documentation](Software.md)
+
 The PureSense software is developed using the Arduino IDE and integrates libraries for the ESP32, BME680, and OLED display. Key functionalities include:  
 - **Real-time Data Visualization:** Display environmental data on the OLED screen.  
 - **Remote Monitoring:** Use the Blynk platform for web and mobile data access.  
 - **Configurable Settings:** Easy updates for Wi-Fi and Blynk credentials.  
 The software ensures efficient operation with low power consumption and scalability for future features like cloud integration.
+
+---
+
+## Marketing  
+[Go to Marketing Documentation](Marketing.md)  
+
+The marketing strategy for PureSense focuses on showcasing its unique value propositions, including cost efficiency, high precision, and portability. Key initiatives include:  
+- **Differentiation:** Highlighting superior accuracy and faster response times compared to competitors.  
+- **Partnerships:** Collaborations with industries, online influencers, and participation in trade shows.  
+- **Online Presence:** Promoting through social media and sharing customer success stories.  
+This approach aims to enhance brand visibility, build credibility, and drive adoption in target markets such as schools, hospitals, and smart homes.  
+
