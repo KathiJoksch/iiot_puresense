@@ -1,5 +1,5 @@
 # Hardware
-* By Ahmed Gaber Younes Mohamed*
+*By Ahmed Gaber Younes Mohamed*
 
 ---
 
